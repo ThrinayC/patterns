@@ -164,6 +164,25 @@ void print14(int n){
     cout<<endl;
     }
 }
+void rhombus(int n){
+    pyramid(n);
+    rev_pyr(n);
+}
+void right_triangle(int n){
+    for(int i = 1 ; i <= n ; i++){
+        for(int j = 1 ; j<=i ; j++){
+            cout<<"*";
+        
+        }
+    cout<<endl;
+    }
+    for(int i = 1 ; i < n ; i++ ){
+        for(int j = 0 ; j < n-i ; j++){
+            cout<<"*";
+        }
+    cout<<endl;
+    }
+}
 void print15(int n){
     for(int i = n ; i >=0 ; i--){
         for (char ch = 'A' ; ch <= 'A' + i ; ch++){
