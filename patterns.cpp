@@ -120,6 +120,18 @@ void print11(int n){
     cout<<endl;
     }
 }
+void  triangle(int n)
+{
+    int x = n ;
+    for(int i = 0 ; i <=n ; i++)
+    {
+        for(int j  = 0 ; j < i ; j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
 void print12(int n){
     for(int i = 1 ; i <=n ; i++){
         for(int j = 1 ; j <= i ; j++){
