@@ -120,6 +120,19 @@ void print11(int n){
     cout<<endl;
     }
 }
+void  square(int n)
+{
+    int x = n ;
+    for(int i = 0 ; i < n ; i++)
+    {
+        for(int j  = 0 ; j < n ; j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+
 void  triangle(int n)
 {
     int x = n ;
