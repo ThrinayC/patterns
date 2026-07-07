@@ -12,6 +12,7 @@ void  square(int n)
         cout<<endl;
     }
 }
+
 void  square(int n)
 {
     int x = n ;
